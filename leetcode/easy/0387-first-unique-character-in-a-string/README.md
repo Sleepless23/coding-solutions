@@ -40,15 +40,15 @@ The character `'l'` at index 0 is the first character that does not occur at any
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 19.1 MB  
-**Submitted:** 2026-10-25T22:55:29.184Z  
+**Runtime:** 5477 ms (beats 5.07%)  
+**Memory:** 19.5 MB (beats 83.59%)  
+**Submitted:** 2026-10-25T22:56:50.337Z  
 
 ```py
 class Solution:
     def firstUniqChar(self, s: str) -> int:
-        s = "leetcode"
-        letters = [0, 3] #FIFO
+    
+        letters = []
 
         for letter in s:
 
