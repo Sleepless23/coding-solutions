@@ -1,7 +1,7 @@
 class Solution:
     def firstUniqChar(self, s: str) -> int:
-        s = "leetcode"
-        letters = [0, 3] #FIFO
+    
+        letters = []
 
         for letter in s:
 
